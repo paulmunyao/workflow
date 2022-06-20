@@ -19,6 +19,6 @@ from django.urls import include, path
 
 urlpatterns = [
     # Set url path for the application inside the project
-    path('workflows/', include(workflows.urls)),
+    path('workflows/', include('workflows.urls')),
     path('admin/', admin.site.urls),
 ]
