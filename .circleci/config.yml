@@ -13,7 +13,7 @@ jobs:
       - run:
           name: commit files
           command: 
-                   git add -A
+                   git add .
                    git commit -m "update data"
                  
                    
