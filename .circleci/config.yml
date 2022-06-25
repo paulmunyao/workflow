@@ -12,8 +12,7 @@ jobs:
       - checkout
       - run:
           name: commit files
-          command: git config --local user.email "paulmunyao094@gmail.com"
-                   git config --local user.name "paulmunyao"
+          command: 
                    git add -A
                    git commit -m "update data" -a
                  
