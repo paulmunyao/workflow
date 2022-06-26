@@ -9,19 +9,19 @@ jobs:
       - run:
           name: install dependencies
           command: pip install -r requirements.txt
-      - checkout
-      - run:
-          name: commit files
-          command: git config --local user.email "paulmunyao094@gmail.com"
-                   git config --local user.name "paulmunyao"
-                   git add -A
-                   git commit -m "update data" -a
+      # - checkout
+      # - run:
+      #     name: commit files
+      #     command: git config --local user.email "paulmunyao094@gmail.com"
+      #              git config --local user.name "paulmunyao"
+      #              git add -A
+      #              git commit -m "update data" -a
 
-          name: push changes
-          uses: ad-m/github-push-action@v0.6.0
-          with:
-            github_token: ${{ secrets.GITHUB_TOKEN }}
-            branch: main
+      #     name: push changes
+      #     uses: ad-m/github-push-action@v0.6.0
+      #     with:
+      #       github_token: ${{ secrets.GITHUB_TOKEN }}
+      #       branch: main
                  
                   
 workflows:
