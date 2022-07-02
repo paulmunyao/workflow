@@ -12,10 +12,10 @@ jobs:
       - checkout
       - run:
           name: commit files
-          command: git config --local user.email "paulmunyao094@gmail.com"
-                   git config --local user.name "paulmunyao"
+          command: git config --local user.email "mike@mikeowino.com"
+                   git config --local user.name "mikeyhodl"
                    git add -A
-                   git commit -m "update data" -a
+                   git commit -m "data update" -a
 
           # name: push changes
           # uses: ad-m/github-push-action@v0.6.0
