@@ -9,3 +9,4 @@ Create a circleci folder inside the project directory.Afterwards create a yaml f
           name: install dependencies
           command: pip install -r requirements.txt
 ```
+This is an example of a workflow of how one can install dependencies using circleci
